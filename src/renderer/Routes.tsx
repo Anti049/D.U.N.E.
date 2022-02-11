@@ -1,6 +1,6 @@
 import { Switch, Route, HashRouter as Router } from "react-router-dom";
-import RouterPaths from "@/render/utils/routes.json";
-import HomePage from "@/render/containers/HomePage";
+import RouterPaths from "@/renderer/utils/routes.json";
+import HomePage from "@/renderer/containers/HomePage";
 
 const Routes = () => {
   return (

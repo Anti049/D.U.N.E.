@@ -16,9 +16,9 @@
       "*": ["node_modules/*"],
       "@/*": ["./src/*"],
       "@assets/*": ["./assets/*"],
-      "@containers/*": ["./src/render/containers/*"],
-      "@components/*": ["./src/render/components/*"],
-      "@redux/*": ["./src/render/redux/*"]
+      "@containers/*": ["./src/renderer/containers/*"],
+      "@components/*": ["./src/renderer/components/*"],
+      "@redux/*": ["./src/renderer/redux/*"]
     }
   },
   "include": ["src/**/*", "assets/**/*"]

@@ -8,8 +8,8 @@
  */
 
 import ReactDOM from "react-dom";
-import App from "./render/App";
-import "./render/index.css";
+import App from "./App";
+import "./index.css";
 
 function render() {
   ReactDOM.render(App(), document.getElementById("root"));
